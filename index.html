@@ -10,26 +10,46 @@
   <link rel="stylesheet" href="dist/audition.css">
 
   <meta name="theme-color" content="#fafafa">
+  <style>
+    @font-face {
+      font-family: "Muli";
+      src:         url("./fonts/Muli-Light.ttf") format("truetype");
+      font-weight: 300;
+      font-style:  normal;
+    }
+    @font-face {
+      font-family: "Muli";
+      src:         url("./fonts/Muli-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-style:  normal;
+    }
+    @font-face {
+      font-family: "Muli";
+      src:         url("./fonts/Muli-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-style:  normal;
+    }
+  </style>
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
   <div class="container">
-
     <div class="row">
       <div class="col">
-        <section>
-          <div>
-            <p>Great! Your registry is published and ready to be shared.</p>
-            <a href="/">Share</a>
-            <a href="/">Preview</a>
-            <a href="/">Edit</a>
+        <section class='cta'>
+          <div class='content'>
+            <p><span>Great!</span> Your registry is published and ready to be shared.</p>
+            <div class='buttons'>
+              <a href="/">Share</a>
+              <a href="/">Preview</a>
+              <a href="/">Edit</a>
+            </div>
           </div>
         </section>
       </div>
     </div>
-
   </div>
 
 </body>
